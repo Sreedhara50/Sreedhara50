@@ -1,0 +1,59 @@
+int
+
+float
+
+# Example of basic variable assignment
+name = "Azure Data Factory"
+version = 3.0
+is_active = True
+
+# Printing variables
+print(f"Working with {name}, version {version}, active: {is_active}")
+
+Working with Azure Data Factory, version 3.0, active: True
+
+# Arithmetic operations
+A = 2
+B = 3
+result = a + b  # Addition
+print(f"Sum: {result}")
+
+# Logical operation
+is_large = a > b
+print(f"Is A greater than B? {is_large}")
+
+Sum: 8
+Is A greater than B? True
+
+# Conditional statements
+if a > b:
+    print("a is greater than b")
+else:
+    print("a is less than or equal to b")
+
+# Looping
+for i in range(3):
+    print(f"Iteration {i}")
+
+a is greater than b
+Iteration 0
+Iteration 1
+Iteration 2
+
+# Importing pandas
+import pandas as pd
+
+# Creating a simple DataFrame (table)
+data = {'Name': ['John', 'Doe', 'Alice'],
+        'Age': [28, 24, 30]}
+
+df = pd.DataFrame(data)
+
+# Displaying the data
+print(df)
+
+    Name  Age
+0   John   28
+1    Doe   24
+2  Alice   30
+
